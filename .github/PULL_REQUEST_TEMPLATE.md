@@ -1,62 +1,43 @@
+<!-- Текст между стрелками - это комментарии - они не будут видны в вашем PR. -->
+
+# Описание PR
+<!-- Опишите здесь ваш Pull Request (PR). Что он изменяет? На что еще это может повлиять? -->
+
+## Медиа
+<!-- Добавьте скриншоты/видео, для демонстрации вашего PR. Если ваш PR представляет собой визуальное изменение, добавьте скриншоты, иначе он может быть закрыт. -->
+
+<!--## Чек-лист
+Место для вашего чек-листа, здесь можно составить список, к примеру того, что вы хотите сделать. -->
+
+## Тип PR
+<!-- Подходите ответственно к пометке этих пунктов, для этого необходимо поставить английскую "X" между квадратных скобок -->
+- [ ] Feature
+- [ ] Fix
+- [ ] Tweak
+- [ ] Balance
+- [ ] Refactor
+- [ ] Translate
+- [ ] Resprite
+
+**Изменения**
 <!--
-This is a semi-strict format, you can add/remove sections as needed but the order/format should be kept the same
-Remove these comments before submitting
+Здесь вы можете написать список изменений, который будет автоматически добавлен в игру, когда ваш PR будет принят
+Для записей в списке изменений есть 4 значка: add, remove, tweak, fix. Думаю, вы сможете разобраться с остальным.
+
+Вы можете поставить свое имя после символа :cl:, чтобы изменить имя, которое будет отображаться в журнале изменений (в противном случае будет использоваться ваше имя пользователя GitHub)
+Например: ":cl: DVOniksWyvern".
+
+Как правило, в журналы изменений следует помещать только то, что действительно важно игрокам. Вещи вроде "Рефактор системы X, но изменений вы не увидите" - не должны быть в журнале изменений, эти изменения обычные игроки не смогут заметить.
+
+При написании списка изменений НЕ считайте суффикс типа записи (например, add) "частью" предложения:
+Плохо: - add: Хирургия может вырезать яйца.
+Хорошо: - add: Добавлена хирургическая операция, которая позволяет вырезать яйца.
 -->
 
-# Description
-
-<!--
-Explain this PR in as much detail as applicable
-
-Some example prompts to consider:
-How might this affect the game? The codebase?
-What might be some alternatives to this?
-How/Who does this benefit/hurt [the game/codebase]?
+<!-- Не забудьте убрать стрелки, что-бы changelog отображался, если вы считаете, что он нужен.
+:cl: 
+- add: Добавлено веселье.
+- remove: Убрано веселье.
+- tweak: Изменено веселье.
+- fix: Исправлено веселье.
 -->
-
-Description.
-
----
-
-# TODO
-
-<!--
-A list of everything you have to do before this PR is "complete"
-You probably won't have to complete everything before merging but it's good to leave future references
--->
-
-- [ ] Task
-- [x] Completed Task
-
----
-
-<!--
-This is default collapsed, readers click to expand it and see all your media
-The PR media section can get very large at times, so this is a good way to keep it clean
-The title is written using HTML tags
-The title must be within the <summary> tags or you won't see it
--->
-
-<details><summary><h1>Media</h1></summary>
-<p>
-
-![Example Media Embed](https://example.com/thisimageisntreal.png)
-
-</p>
-</details>
-
----
-
-# Changelog
-
-<!--
-You can add an author after the `:cl:` to change the name that appears in the changelog (ex: `:cl: Death`)
-Leaving it blank will default to your GitHub display name
-This includes all available types for the changelog
--->
-
-:cl:
-- add: Added fun :D
-- tweak: Tweaked fun
-- fix: Fixed fun!
-- remove: Removed fun :(

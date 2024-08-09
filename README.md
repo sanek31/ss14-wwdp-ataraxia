@@ -1,6 +1,6 @@
 # WWhite Dream Project Build
 
-<p align="center"><img src="https://raw.githubusercontent.com/frosty-dev/ss14-wwdp/master/Resources/Textures/White/Logo/WWDPDarkSplashLogo.png" width="512px" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/frosty-dev/ss14-wwdp/master/Resources/Textures/White/Logo/WWDPDarkSplashIcon.png" width="512px" /></p>
 
 ---
 

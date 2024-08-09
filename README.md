@@ -1,6 +1,6 @@
 # WWhite Dream Project Build
 
-<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/frosty-dev/ss14-wwdp/master/Resources/Textures/White/Logo/WWDPDarkSplashLogo.png" width="512px" /></p>
 
 ---
 

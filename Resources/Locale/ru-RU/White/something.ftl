@@ -52,17 +52,17 @@ shoes-she = На ногах у нее
 
 # Оно
 
-head-it = On its head, it wears
-eyes-it = In its eyes, it has
-mask-it = It is wearing a mask on its face
-neck-it = Around its neck, it has
-ears-it = It has something on its ears
-jumpsuit-it = It is wearing
-outer-it = Also
-back-it = On its back, it carries
-gloves-it = On its hands
-belt-it = It is wearing
-shoes-it = It is wearing
+head-it = На голове оно
+eyes-it = На оно глазах надеты
+mask-it = На лице оно
+neck-it = На лице оно
+ears-it = На ушах оно
+jumpsuit-it = На оно
+outer-it = А так же
+back-it = На спине оно
+gloves-it =  На руках оно
+belt-it = На оно висит
+shoes-it = у оно на ногах
 
 # Они
 
@@ -88,13 +88,13 @@ character-information-ui-flavor-text-disabled = На этом сервере о�
 
 # sm
 
-supermatter-self = Supermatter
-supermatter-danger-message = Danger! Crystal hyperstructure integrity faltering! Integrity: { $integrity }%
-supermatter-warning-message = WARNING! Crystal hyperstructure integrity reaching critical levels! Integrity: { $integrity }%
-supermatter-safe-alert = Crystalline hyperstructure returning to safe operating parameters. Failsafe has been Disengaged. Integrity: { $integrity }%
-supermatter-delamination-overmass = The Supermatter has Reached Critical Mass Falure. Singularity formation Imminent
-supermatter-delamination-default = The Supermatter has Reached Critical Integrity Falure. Emergency Causality Destabilization Field has been Activated.
-supermatter-seconds-before-delam = { $Seconds } Seconds Remain Before Delamination.
+supermatter-self = Суперматерия
+supermatter-danger-message = Опасность! Целостность гиперструктуры кристаллов находится под угрозой! Целостность: { $integrity }%
+supermatter-warning-message = ВНИМАНИЕ! Целостность гиперструктуры кристаллов достигает критических уровней! Целостность: { $integrity }%
+supermatter-safe-alert = Кристаллическая гиперструктура возвращается к безопасным рабочим параметрам. Защитные механизмы отключены. Целостность: { $integrity }%
+supermatter-delamination-overmass = Суперматерия достигла критической массы. Формирование сингулярности неизбежно.
+supermatter-delamination-default = Суперматерия достигла критической целостности. Аварийное поле стабилизации активировано.
+supermatter-seconds-before-delam = { $Seconds } секунд осталось до деламинации
 
 # MobStateShit
 

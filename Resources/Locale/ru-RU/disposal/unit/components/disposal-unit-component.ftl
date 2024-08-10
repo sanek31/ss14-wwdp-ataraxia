@@ -28,3 +28,6 @@ disposal-unit-state-Flushed = Герметизация
 disposal-unit-state-Pressurizing = Нагнетание
 disposal-self-insert-verb-get-data-text = Залезть внутрь
 disposal-eject-verb-get-data-text = Извлечь всё
+
+## missed
+disposal-unit-thrown-missed = промазал!

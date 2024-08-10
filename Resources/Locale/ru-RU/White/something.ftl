@@ -62,7 +62,7 @@ outer-it = А так же
 back-it = На спине оно
 gloves-it =  На руках оно
 belt-it = На оно висит
-shoes-it = у оно на ногах
+shoes-it = У оно на ногах
 
 # Они
 

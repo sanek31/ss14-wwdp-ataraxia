@@ -13,3 +13,4 @@ ent-ClothingNeckNecklaceTech = технологичный крест
 ent-ClothingNeckNecklaceUnholy = крест антихриста
     .desc = Путь в рай закрыт.
     .suffix = { "ClothingNeckNecklace" }
+

@@ -2,7 +2,7 @@
 - type: emote
   id: Scream
   category: Vocal
-  buttonText: Кричать
+  # buttonText: Кричать
   chatMessages: [ кричит, орет, вопит, рявкает ]
   chatTriggers:
   - кричит
@@ -25,7 +25,7 @@
 - type: emote
   id: Laugh
   category: Vocal
-  buttonText: Смеяться
+  # buttonText: Смеяться
   chatMessages: [ смеется, ржет, усмехается, хохочет, гогочет ]
   chatTriggers:
   - смеется
@@ -52,19 +52,19 @@
 - type: emote
   id: Sigh
   category: Vocal
-  buttonText: Вздохнуть
+  # buttonText: Вздохнуть
   chatMessages: [ вздыхает ]
   chatTriggers:
   - вздыхает
   - вздохнула
   - вздохнул
   - вздохнуло
-  allowMenu: true
+#  allowMenu: true
 
 - type: emote
   id: Whistle
   category: Vocal
-  buttonText: Свистнуть
+  # buttonText: Свистнуть
   chatMessages: [ свистит ]
   chatTriggers:
   - свистит
@@ -76,7 +76,7 @@
 - type: emote
   id: Crying
   category: Vocal
-  buttonText: Плакать
+  # buttonText: Плакать
   chatMessages: [ плачет ]
   chatTriggers:
   - плачет
@@ -131,7 +131,7 @@
 - type: emote
   id: Clap
   category: Hands
-  buttonText: Хлопать
+  # buttonText: Хлопать
   chatMessages: [ хлопает ]
   chatTriggers:
   - хлопает
@@ -147,7 +147,7 @@
 - type: emote
   id: Snap
   category: Hands
-  buttonText: Щелкать пальцами
+  # buttonText: Щелкать пальцами
   chatMessages: [ щелкает пальцами ] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
   - щелкает пальцами
@@ -160,7 +160,7 @@
 - type: emote
   id: Salute
   category: Hands
-  buttonText: Отдать честь
+  # buttonText: Отдать честь
   chatMessages: [ отдает честь ]
   chatTriggers:
   - салютует
@@ -170,49 +170,49 @@
 - type: emote
   id: WaveHand
   category: Hands
-  buttonText: Махать рукой
+  # buttonText: Махать рукой
   chatMessages: [машет рукой]
  # allowMenu: true
 
 - type: emote
   id: Nod
   category: Hands
-  buttonText: Кивать
+  # buttonText: Кивать
   chatMessages: [кивает]
  # allowMenu: true
 
 - type: emote
   id: ShakeHead
   category: Hands
-  buttonText: Покачать головой
+  # buttonText: Покачать головой
   chatMessages: [качает головой]
  # allowMenu: true
 
 - type: emote
   id: Frown
   category: Hands
-  buttonText: Хмуриться
+  # buttonText: Хмуриться
   chatMessages: [хмурится]
  # allowMenu: true
 
 - type: emote
   id: Smile
   category: Hands
-  buttonText: Улыбаться
+  # buttonText: Улыбаться
   chatMessages: [улыбается]
 #  allowMenu: true
 
 - type: emote
   id: Sniff
   category: Hands
-  buttonText: Принюхиваться
+  # buttonText: Принюхиваться
   chatMessages: [принюхивается]
  # allowMenu: true
 
 - type: emote
   id: LickLips
   category: Hands
-  buttonText: Облизываться
+  # buttonText: Облизываться
   chatMessages: [облизывается]
 #  allowMenu: true
 

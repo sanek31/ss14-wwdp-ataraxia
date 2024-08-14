@@ -38,11 +38,8 @@ public sealed class UPSystem  : EntitySystem
                 if (h.FieldType == typeof(int)) h.SetValue(comp,(int) entity.Comp.upgradeValue);
                 if (h.FieldType == typeof(float)) h.SetValue(comp,(int) entity.Comp.upgradeValue);
 
-
             }
 
-            entity.Comp.usable -= 1;
-            if (entity.Comp.usable < 0) _ent.QueueDeleteEntity(entity);
         }
     }
 

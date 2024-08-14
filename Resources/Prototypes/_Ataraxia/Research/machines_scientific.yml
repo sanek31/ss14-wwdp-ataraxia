@@ -1,0 +1,72 @@
+- type: technology
+  id: AnomalousResearchMachines
+  name: ataraxia-research-technology-anomalous-research-machines
+  icon:
+    sprite: Objects/Specific/Research/anomalyscanner.rsi
+    state: icon
+  discipline: AnomalousResearchMachines
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - AnomalyScanner
+  - AnomalyLocator
+  - AnomalyLocatorWide
+  - BorgModuleAnomaly
+  - APECircuitboard
+  - AnomalyVesselCircuitboard
+
+- type: technology
+  id: AnomalyResearchAdvancedMachines
+  name: ataraxia-research-technology-anomaly-research-advanced-machines
+  icon:
+    sprite: Structures/Machines/anomaly_sync.rsi
+    state: base
+  discipline: AnomalousResearchMachines
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - WeaponPistolCHIMP
+  - AnomalySynchronizerCircuitboard
+  - AnomalyVesselExperimentalCircuitboard
+  technologyPrerequisites:
+  - AnomalousResearch
+  - AnomalousResearchMachines
+
+- type: technology
+  id: XenoArcheologyMachines
+  name: ataraxia-research-technology-xenoarcheology-machines
+  icon:
+    sprite: Structures/Machines/artifact_analyzer.rsi
+    state: display
+  discipline: XenoArcheologyMachines
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - NodeScanner
+  - AnalysisComputerCircuitboard
+  - ArtifactAnalyzerMachineCircuitboard
+
+- type: technology
+  id: AlternativeResearchMachines
+  name: ataraxia-research-technology-alternative-research-machines
+  icon:
+    sprite: Structures/Machines/tech_disk_printer.rsi
+    state: display
+  discipline: AlternativeResearchMachines
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - TechDiskComputerCircuitboard
+
+- type: technology
+  id: AbnormalArtifactManipulationMachines
+  name: ataraxia-research-technology-abnormal-artifact-manipulation-machines
+  icon:
+    sprite: Structures/Machines/traversal_distorter.rsi
+    state: display
+  discipline: AbnormalArtifactManipulationMachines
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - TraversalDistorterMachineCircuitboard
+  - ArtifactCrusherMachineCircuitboard

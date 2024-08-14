@@ -148,7 +148,7 @@ public abstract class SharedResearchSystem : EntitySystem
         TechnologyPrototype technology,
         bool includeCost = true,
         bool includeTier = true,
-        bool includePrereqs = false,
+        bool includePrereqs = true, // ATARAXIA-EDIT | KEEP TRUE!
         TechDisciplinePrototype? disciplinePrototype = null)
     {
         var description = new FormattedMessage();

@@ -2,7 +2,7 @@
 using Content.Server.AAnUniversalUpgrader.Components;
 using Content.Shared.Interaction;
 
-namespace Content.Server.AAnUniversalUpgrader.Systems;
+namespace Content.Server.UniversalUpgrader.Systems;
 
 public sealed class UPSystem  : EntitySystem
 {

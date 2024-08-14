@@ -1,5 +1,5 @@
 
-namespace Content.Server.AAnUniversalUpgrader.Components;
+namespace Content.Server.UniversalUpgrader.Components;
 
 [RegisterComponent]
 public sealed partial class UPComponent : Component

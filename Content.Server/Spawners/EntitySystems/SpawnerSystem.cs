@@ -33,6 +33,10 @@ public sealed class SpawnerSystem : EntitySystem
         for (var i = 0; i < number; i++)
         {
             var entity = _random.Pick(component.Prototypes);
+            var radius = 0;
+
+            if (radius != 0)
+                coordinates.Offset(new Vector2(_random.Next(-radius,radius), _random.Next(-radius,radius)));
             SpawnAtPosition(entity, coordinates);
         }
     }

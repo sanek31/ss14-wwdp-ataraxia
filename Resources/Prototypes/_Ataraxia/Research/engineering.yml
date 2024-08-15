@@ -26,29 +26,29 @@
   - AdvancedPowercells
 
 # <-- STRUCTURE DEVICES -->
-- type: technology
-  id: EngineeringDevices
-  name: ataraxia-research-technology-engineering-devices
-  icon:
-    sprite: Objects/Tools/rcd.rsi
-    state: icon
-  discipline: EngineeringDevices
-  tier: 1
-  cost: 10000
-  recipeUnlocks:
-  - RCDRecipe
+#- type: technology # Because need port
+#  id: EngineeringDevices
+#  name: ataraxia-research-technology-engineering-devices
+#  icon:
+#    sprite: Objects/Tools/rcd.rsi
+#    state: icon
+#  discipline: EngineeringDevices
+#  tier: 1
+#  cost: 10000
+#  recipeUnlocks:
+#  - RCDRecipe
 
-- type: technology
-  id: AtmosphericDevices
-  name: ataraxia-research-technology-atmospheric-devices
-  icon:
-    sprite: White/Items/Tools/rpd.rsi
-    state: icon
-  discipline: AtmosphericDevices
-  tier: 1
-  cost: 7500
-  recipeUnlocks:
-  - RapidPipeDispenserRecipe
+#- type: technology # Because need port
+#  id: AtmosphericDevices
+#  name: ataraxia-research-technology-atmospheric-devices
+#  icon:
+#    sprite: White/Items/Tools/rpd.rsi
+#    state: icon
+#  discipline: AtmosphericDevices
+#  tier: 1
+#  cost: 7500
+#  recipeUnlocks:
+#  - RapidPipeDispenserRecipe
 
 # <-- TOOLS -->
 - type: technology

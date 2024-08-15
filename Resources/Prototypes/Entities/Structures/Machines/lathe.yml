@@ -319,11 +319,11 @@
       - HolofanProjector
       - BluespaceBeaker
       - SyringeBluespace
-      #- WeaponForceGun
+      - WeaponForceGun # Ataraxia-RETURN
       - WeaponLaserSvalinn
       - WeaponProtoKineticAccelerator
-      #- WeaponTetherGun
-      #- WeaponGrapplingGun
+      - WeaponTetherGun # Ataraxia-RETURN
+      - WeaponGrapplingGun # Ataraxia-RETURN
       - ClothingBackpackHolding
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding

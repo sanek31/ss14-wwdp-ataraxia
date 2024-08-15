@@ -24,7 +24,7 @@
   recipeUnlocks:
     - DawInstrumentMachineCircuitboard
     - MassMediaCircuitboard
-    - JukeboxCircuitBoard
+  #  - JukeboxCircuitBoard Because build old
     - ComputerTelevisionCircuitboard
 
 - type: technology

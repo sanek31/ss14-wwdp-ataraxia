@@ -21,8 +21,8 @@
   cost: 7500
   recipeUnlocks:
   - MiningDrill
-  - ClothingMaskWeldingGas
-  - WeaponPlasmaCutter
+#  - ClothingMaskWeldingGas # Because build old
+#  - WeaponPlasmaCutter # Because need port
 
 - type: technology
   id: SalvageEquipmentAdvanced
@@ -34,7 +34,7 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - WeaponPlasmaCutterAdvanced
+#  - WeaponPlasmaCutterAdvanced # Because need port
   - OreBagOfHolding
   technologyPrerequisites:
   - SalvageEquipment

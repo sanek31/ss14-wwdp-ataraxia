@@ -3,7 +3,7 @@
   name: ataraxia-research-discipline-shuttle
   color: "#eeac34"
   icon:
-    sprite: Ataraxia/Interface/Misc/research_disciplines.rsi
+    sprite: _Ataraxia/Interface/Misc/research_disciplines.rsi
     state: shuttle
   tierPrerequisites:
     1: 0
@@ -13,7 +13,7 @@
   name: ataraxia-research-discipline-shuttle
   color: "#eeac34"
   icon:
-    sprite: Ataraxia/Interface/Misc/research_disciplines.rsi
+    sprite: _Ataraxia/Interface/Misc/research_disciplines.rsi
     state: shuttle
   tierPrerequisites:
     1: 0

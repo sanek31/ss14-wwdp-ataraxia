@@ -3,7 +3,7 @@
   name: ataraxia-research-discipline-equipment
   color: "#7ecd48"
   icon:
-    sprite: Ataraxia/Interface/Misc/research_disciplines.rsi
+    sprite: _Ataraxia/Interface/Misc/research_disciplines.rsi
     state: equipment
   tierPrerequisites:
     1: 0
@@ -13,7 +13,7 @@
   name: ataraxia-research-discipline-equipment
   color: "#7ecd48"
   icon:
-    sprite: Ataraxia/Interface/Misc/research_disciplines.rsi
+    sprite: _Ataraxia/Interface/Misc/research_disciplines.rsi
     state: equipment
   tierPrerequisites:
     1: 0

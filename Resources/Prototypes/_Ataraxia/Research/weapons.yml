@@ -55,9 +55,9 @@
   - MagazineBoxMagnumRubber
   - MagazineBoxLightRifleRubber
   - MagazineBoxRifleRubber
-  - ShinanoGrenadeFlashRecipe
-  - ShinanoGrenadeSmokeRecipe
-  - ShinanoGrenadeStingerRecipe
+#  - ShinanoGrenadeFlashRecipe # Because need port
+#  - ShinanoGrenadeSmokeRecipe # Because need port
+#  - ShinanoGrenadeStingerRecipe # Because need port
   # DeltaV - .38 special rubber ammo - Adds .38 special rubber ammo to the research tree
   - CartridgeSpecialRubber
   - MagazineBoxSpecialRubber
@@ -170,7 +170,7 @@
     state: icon
   discipline: CombatLaserExperimental
   tier: 1
-  cost: 5000 
+  cost: 5000
   recipeUnlocks:
   - WeaponLaserSvalinn
   technologyPrerequisites:

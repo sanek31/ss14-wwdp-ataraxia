@@ -28,28 +28,28 @@
   technologyPrerequisites:
   - RiotControl
 
-- type: technology
-  id: GripsLightweight
-  name: ataraxia-research-technology-grips-lightweight
-  icon:
-    sprite: White/MagGloves/maggloves.rsi
-    state: icon
-  discipline: GripsGloves
-  tier: 1
-  cost: 7500
-  recipeUnlocks:
-    - ClothingHandsGlovesMagnetic
+#- type: technology # Because need port
+#  id: GripsLightweight
+#  name: ataraxia-research-technology-grips-lightweight
+#  icon:
+#    sprite: White/MagGloves/maggloves.rsi
+#    state: icon
+#  discipline: GripsGloves
+#  tier: 1
+#  cost: 7500
+#  recipeUnlocks:
+#    - ClothingHandsGlovesMagnetic
 
-- type: technology
-  id: GripsAdvanced
-  name: ataraxia-research-technology-grips-advanced
-  icon:
-    sprite: White/MagGloves/magglovesadvanced.rsi
-    state: icon
-  discipline: GripsGloves
-  tier: 1
-  cost: 10000
-  recipeUnlocks:
-    - ClothingHandsGlovesMagneticAdvanced
-  technologyPrerequisites:
-  - GripsLightweight
+#- type: technology # Because need port
+#  id: GripsAdvanced
+#  name: ataraxia-research-technology-grips-advanced
+#  icon:
+#    sprite: White/MagGloves/magglovesadvanced.rsi
+#    state: icon
+#  discipline: GripsGloves
+#  tier: 1
+#  cost: 10000
+#  recipeUnlocks:
+#    - ClothingHandsGlovesMagneticAdvanced
+#  technologyPrerequisites:
+#  - GripsLightweight

@@ -3,7 +3,7 @@
   name: ataraxia-research-discipline-telecommunications
   color: "#7ecd48"
   icon:
-    sprite: Ataraxia/Interface/Misc/research_disciplines.rsi
+    sprite: _Ataraxia/Interface/Misc/research_disciplines.rsi
     state: engineering
   tierPrerequisites:
     1: 0

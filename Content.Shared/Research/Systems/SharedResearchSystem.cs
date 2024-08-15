@@ -71,9 +71,6 @@ public abstract class SharedResearchSystem : EntitySystem
         if (!component.SupportedDisciplines.Contains(tech.Discipline))
             return false;
 
-        if (tech.Tier > disciplineTiers[tech.Discipline])
-            return false;
-
         if (component.UnlockedTechnologies.Contains(tech.ID))
             return false;
 
@@ -156,7 +153,7 @@ public abstract class SharedResearchSystem : EntitySystem
         {
             disciplinePrototype ??= PrototypeManager.Index(technology.Discipline);
             description.AddMarkup(Loc.GetString("research-console-tier-discipline-info",
-                ("tier", technology.Tier), ("color", disciplinePrototype.Color), ("discipline", Loc.GetString(disciplinePrototype.Name))));
+                 ("color", disciplinePrototype.Color), ("discipline", Loc.GetString(disciplinePrototype.Name))));
             description.PushNewline();
         }
 

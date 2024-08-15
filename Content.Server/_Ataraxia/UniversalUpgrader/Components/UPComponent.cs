@@ -1,5 +1,5 @@
 
-namespace Content.Server.UniversalUpgrader.Components;
+namespace Content.Server._Ataraxia.UniversalUpgrader.Components;
 
 [RegisterComponent]
 public sealed partial class UPComponent : Component

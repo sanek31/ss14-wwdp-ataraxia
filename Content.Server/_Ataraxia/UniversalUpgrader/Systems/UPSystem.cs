@@ -21,7 +21,7 @@ public sealed class UPSystem  : EntitySystem
         if (entity.Comp.ProtoWhitelist != null && HasComp<MetaDataComponent>(target))
         {
             var z = _ent.GetComponent<MetaDataComponent>(target);
-            if (z.EntityName != entity.Comp.ProtoWhitelist)
+            if (z.EntityPrototype!.ID != entity.Comp.ProtoWhitelist)
                 return;
         }
 

@@ -1,8 +1,8 @@
 
-using Content.Server.UniversalUpgrader.Components;
+using Content.Server._Ataraxia.UniversalUpgrader.Components;
 using Content.Shared.Interaction;
 
-namespace Content.Server.UniversalUpgrader.Systems;
+namespace Content.Server._Ataraxia.UniversalUpgrader.Systems;
 
 public sealed class UPSystem  : EntitySystem
 {

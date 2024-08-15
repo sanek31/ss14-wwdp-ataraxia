@@ -1,5 +1,5 @@
 
-using Content.Server.AAnUniversalUpgrader.Components;
+using Content.Server.UniversalUpgrader.Components;
 using Content.Shared.Interaction;
 
 namespace Content.Server.UniversalUpgrader.Systems;

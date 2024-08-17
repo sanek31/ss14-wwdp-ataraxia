@@ -1,4 +1,7 @@
 - type: Tag
+  id: ShuttleGun
+
+- type: Tag
   id: AirAlarm
 
 - type: Tag

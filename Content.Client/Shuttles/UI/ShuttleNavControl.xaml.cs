@@ -240,6 +240,23 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
             DrawGrid(handle, matty, grid, color);
             DrawDocks(handle, gUid, matty);
         }
+
+        var z = _ent.GetEntities();
+        foreach (var ent in z)
+        {
+            if (EntManager.TryGetComponent<ProjectileComponent>(ent, out var proj) && EntManager.HasComponent<TransformComponent>(ent))
+            {
+                if (EntManager.TryGetComponent<TagComponent>(proj.Shooter, out var tags) && !tags.Tags.Contains("ShuttleGun"))
+                    continue;
+
+                var radius = 2;
+                var cord = _transform.GetWorldPosition(ent);
+                cord.X = -cord.X;
+                cord.X -= radius * 12;
+                cord.Y -= radius * 5;
+                handle.DrawCircle(ScalePosition(cord),radius, Color.Gold);
+            }
+        }
     }
 
     private void DrawDocks(DrawingHandleScreen handle, EntityUid uid, Matrix3 matrix)
